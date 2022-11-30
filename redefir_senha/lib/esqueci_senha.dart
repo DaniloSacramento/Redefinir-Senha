@@ -123,7 +123,7 @@ class _EsqueciSenhaState extends State<EsqueciSenha> {
                   padding: const EdgeInsets.only(
                     top: 45,
                   ),
-                  child: Container(
+                  child: SizedBox(
                     child: ElevatedButton(
                       onPressed: () {
                         var formValid =
