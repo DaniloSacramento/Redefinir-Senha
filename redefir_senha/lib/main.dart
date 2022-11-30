@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:redefir_senha/esqueci_senha.dart';
 import 'package:redefir_senha/primeira_tela.dart';
 
 void main() {
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
         
         
       ),
-      home: PrimeiraTela(),
+      home: EsqueciSenha(),
     );
   }
 }
